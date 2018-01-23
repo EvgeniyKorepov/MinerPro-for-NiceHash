@@ -17,7 +17,7 @@ NiceHash Miner Pro
 # <a name="PrepareExcavator"></a> How to prepare an Excavator?
 
 1. Download Excavator from [https://github.com/nicehash/excavator](https://github.com/nicehash/excavator) and unpack to the folder
-2. Create config file ExcavatorServer.json in Excavator folfer and edit for you rig:
+2. Create the ExcavatorServer.json configuration file in the Excavator folder and change it according to the number of GPUs:
 ```json
 [
   {"time":15,"loop":15,"commands":[{"id":1,"method":"algorithm.print.speeds","params":[]}]},

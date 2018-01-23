@@ -1,4 +1,4 @@
-# NiceHashMinerPro
+# MinerPro for NiceHash
 NiceHash Miner Pro
 
 - [Features](#features)

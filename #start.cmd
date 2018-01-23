@@ -1,0 +1,13 @@
+@echo off
+SET CONSOLE_LOG_LEVEL=2
+SET FILE_LOG_LEVEL=6
+SET HTTP_PORT=38080
+SET HTTP_HOST=0.0.0.0
+SET HTTP_TOKEN=MySecurityToken
+SET TCP_PORT=33333
+SET TCP_HOST=0.0.0.0
+SET COMMAND_FILE=ExcavatorServer.json
+cd /d "%~dp0"
+:start
+excavator.exe -c %COMMAND_FILE% -d %CONSOLE_LOG_LEVEL% -f %FILE_LOG_LEVEL% -p 0 -wp %HTTP_PORT% -wi %HTTP_HOST% -wa %HTTP_TOKEN% -p %TCP_PORT% -i %TCP_HOST%
+goto start

@@ -1,0 +1,6 @@
+[
+  {"time":15,"loop":15,"commands":[{"id":1,"method":"algorithm.print.speeds","params":[]}]},
+  {"event":"on_quit","commands":[{"id":1,"method":"device.set.tdp","params":["0","100"]},
+  {"id":1,"method":"device.set.core_delta","params":["0","0"]},
+  {"id":1,"method":"device.set.memory_delta","params":["0","0"]}]}
+]

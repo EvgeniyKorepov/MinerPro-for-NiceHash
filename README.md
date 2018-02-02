@@ -4,7 +4,7 @@ NiceHash Miner Pro
 - [Features](#features)
 - [How to prepare an Excavator?](#PrepareExcavator)
 
-<img src="Resources/screenshot002.PNG" />
+<img src="Resources/screenshot005.PNG" />
 
 # <a name="features"></a> Features
 - The calculation of profits is made taking into account the cost of electricity. Including different cost of electricity during the day.

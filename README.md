@@ -48,6 +48,8 @@ goto start
 
 # <a name="HowtoUseMinerProforNiceHash"></a> How to Use MinerPro for NiceHash?
 
+ [Short training video on youtube](https://youtu.be/zN5rWmuU2mc)
+ 
 1. [Prepare Excavator](#PrepareExcavator)
 2. Download latest version https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/releases, unpak and run MinerProForNicehash.exe
 3. Choose your favorite currency and press button Save

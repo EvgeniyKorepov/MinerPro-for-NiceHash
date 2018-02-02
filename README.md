@@ -14,6 +14,7 @@ NiceHash Miner Pro
 - Ability to change parameters of the overclocking during operation.
 - Fast, less than one second, switch between algorithms.
 - Failover - switching to other locations when the stratum server fails.
+- Dev fee 0.8% (one minute in two hours).
 
 # <a name="PrepareExcavator"></a> How to prepare an Excavator?
 

@@ -47,7 +47,7 @@ goto start
 
 # <a name="HowtoUseMinerProforNiceHash"></a> How to Use MinerPro for NiceHash?
 
-1. [Prepare Excavator?](#PrepareExcavator)
+1. [Prepare Excavator](#PrepareExcavator)
 2. Download latest version https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/releases, unpak and run MinerProForNicehash.exe
 3. Choose your favorite currency and press button Save
 4. In the left part of the application, click "Add Rig" and (I'll finish the rest later ...)

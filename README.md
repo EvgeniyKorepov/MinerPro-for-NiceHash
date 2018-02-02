@@ -3,6 +3,7 @@ NiceHash Miner Pro
 
 - [Features](#features)
 - [How to prepare an Excavator?](#PrepareExcavator)
+- [How to Use MinerPro for NiceHash?](#HowtoUseMinerProforNiceHash)
 
 <img src="Resources/screenshot005.PNG" />
 
@@ -17,7 +18,7 @@ NiceHash Miner Pro
 # <a name="PrepareExcavator"></a> How to prepare an Excavator?
 
 1. Download Excavator from [https://github.com/nicehash/excavator](https://github.com/nicehash/excavator) and unpack to the folder
-2. Create the ExcavatorServer.json configuration file in the Excavator folder and change it according to the number of GPUs:
+2. Create the [ExcavatorServer.json](https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/blob/master/ExcavatorServer.json) configuration file in the Excavator folder and change it according to the number of GPUs:
 ```json
 [
   {"time":15,"loop":15,"commands":[{"id":1,"method":"algorithm.print.speeds","params":[]}]},
@@ -43,3 +44,10 @@ excavator.exe -c %COMMAND_FILE% -d %CONSOLE_LOG_LEVEL% -f %FILE_LOG_LEVEL% -p 0 
 goto start
 ```
 4. Run the file #start.cmd once, in the favorite way - auto-load, task scheduler, etc.
+
+# <a name="HowtoUseMinerProforNiceHash"></a> How to Use MinerPro for NiceHash?
+
+1. [Prepare Excavator?](#PrepareExcavator)
+2. Download latest version https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/releases, unpak and run MinerProForNicehash.exe
+3. Choose your favorite currency and press button Save
+4. In the left part of the application, click "Add Rig" and (I'll finish the rest later ...)

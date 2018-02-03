@@ -2,6 +2,7 @@
 NiceHash Miner Pro
 
 - [Features](#features)
+- [Near future](#Nearfuture)
 - [How to prepare an Excavator?](#PrepareExcavator)
 - [How to Use MinerPro for NiceHash?](#HowtoUseMinerProforNiceHash)
 
@@ -16,6 +17,9 @@ NiceHash Miner Pro
 - Failover - switching to other locations when the stratum server fails.
 - Caching Nicehash SMA data.
 - Dev fee 0.8% (one minute in two hours).
+
+# <a name="Nearfuture"></a> Near future
+- A mobile application for Android that receives push messages about critical problems and allows you to remotely view the main logs.
 
 # <a name="PrepareExcavator"></a> How to prepare an Excavator?
 

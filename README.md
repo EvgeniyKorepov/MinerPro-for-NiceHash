@@ -37,17 +37,22 @@ NiceHash Miner Pro
 3. Create cmd file #start.cmd in Excavator folfer 
 ```
 @echo off
+:: CONFIG STARTS
+SET LOCALDIR=%~dp0
 SET CONSOLE_LOG_LEVEL=2
-SET FILE_LOG_LEVEL=6
-SET HTTP_PORT=38080
-SET HTTP_HOST=0.0.0.0
-SET HTTP_TOKEN=MySecurityToken
-SET TCP_PORT=33333
-SET TCP_HOST=0.0.0.0
-SET COMMAND_FILE=ExcavatorServer.json
-cd /d "%~dp0"
+SET FILE_LOG_LEVEL=0
+SET WEB_PORT=38080
+SET WEB_HOST=0.0.0.0
+SET TOKEN=olaniel666
+SET PORT=33333
+SET HOST=0.0.0.0
+SET RESTART_DELAY=0
+SET RESTART_DELAY_LONG=30
+:: CONFIG ENDS
+cd /d "%LOCALDIR%"
 :start
-excavator.exe -c %COMMAND_FILE% -d %CONSOLE_LOG_LEVEL% -f %FILE_LOG_LEVEL% -p 0 -wp %HTTP_PORT% -wi %HTTP_HOST% -wa %HTTP_TOKEN% -p %TCP_PORT% -i %TCP_HOST%
+SET COMMAND_FILE=ExcavatorServer.json
+excavator.exe -c %LOCALDIR%%COMMAND_FILE% -d %CONSOLE_LOG_LEVEL% -f %FILE_LOG_LEVEL% -wp %WEB_PORT% -wi %WEB_HOST% -wa %TOKEN% -p %PORT% -i %HOST%  
 goto start
 ```
 4. Run the file #start.cmd once, in the favorite way - auto-load, task scheduler, etc.

@@ -16,6 +16,7 @@ NiceHash Miner Pro
 - Fast, less than one second, switch between algorithms.
 - Failover - switching to other locations when the stratum server fails.
 - Caching Nicehash SMA data.
+- Supported currency USD, CHF, HRK, MXN, ZAR, INR, CNY, THB, AUD, ILS, KRW, JPY, PLN, GBP, IDR, HUF, PHP, TRY, RUB, HKD, ISK, EUR, DKK, CAD, MYR, BGN, NOK, RON, SGD, CZK, SEK, NZD, BRL.
 - Dev fee 0.8% (one minute in two hours).
 
 # <a name="Nearfuture"></a> Near future

@@ -34,7 +34,7 @@ NiceHash Miner Pro
   {"id":1,"method":"device.set.memory_delta","params":["0","0"]}]}
 ]
  ```
-3. Create cmd file #start.cmd in Excavator folfer 
+3. Create cmd file [#start.cmd](https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/blob/master/#start.cmd) in Excavator folfer 
 ```
 @echo off
 :: CONFIG STARTS

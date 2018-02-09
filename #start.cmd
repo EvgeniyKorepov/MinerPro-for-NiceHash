@@ -9,10 +9,12 @@ SET TOKEN=olaniel666
 SET PORT=33333
 SET HOST=0.0.0.0
 SET RESTART_DELAY=0
-SET RESTART_DELAY_LONG=30
 :: CONFIG ENDS
 cd /d "%LOCALDIR%"
 :start
 SET COMMAND_FILE=ExcavatorServer.json
+
 excavator.exe -c %LOCALDIR%%COMMAND_FILE% -d %CONSOLE_LOG_LEVEL% -f %FILE_LOG_LEVEL% -wp %WEB_PORT% -wi %WEB_HOST% -wa %TOKEN% -p %PORT% -i %HOST%  
+
+timeout /T %RESTART_DELAY%
 goto start

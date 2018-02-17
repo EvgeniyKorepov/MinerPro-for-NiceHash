@@ -21,7 +21,7 @@ NiceHash Miner Pro
 - Dev fee 0.8% (one minute in two hours).
 
 # <a name="Nearfuture"></a> Near future
-- A mobile application for Android that receives push messages about critical problems and allows you to remotely view the main logs.
+- A mobile application for Android that receives push messages about critical problems and allows you to remotely view the main logs. (Already done)
 
 # <a name="PrepareExcavator"></a> How to prepare an Excavator?
 

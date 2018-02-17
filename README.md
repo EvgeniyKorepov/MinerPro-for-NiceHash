@@ -17,6 +17,7 @@ NiceHash Miner Pro
 - Failover - switching to other locations when the stratum server fails.
 - Caching Nicehash SMA data.
 - Supported currency USD, CHF, HRK, MXN, ZAR, INR, CNY, THB, AUD, ILS, KRW, JPY, PLN, GBP, IDR, HUF, PHP, TRY, RUB, HKD, ISK, EUR, DKK, CAD, MYR, BGN, NOK, RON, SGD, CZK, SEK, NZD, BRL.
+- Integration with android application Nicehash Statistic (https://play.google.com/store/apps/details?id=ru.flintnet.NiceHashStat). Now you will receive push-notifications about stopping rigs. Also in the mobile application you can watch MinerPro logs
 - Dev fee 0.8% (one minute in two hours).
 
 # <a name="Nearfuture"></a> Near future

@@ -66,5 +66,9 @@ goto start
  
 1. [Prepare Excavator](#PrepareExcavator)
 2. Download latest version https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/releases, unpak and run MinerProForNicehash.exe
-3. Choose your favorite currency and press button Save
-4. In the left part of the application, click "Add Rig" and (I'll finish the rest later ...)
+3. When you first start, you will go to the Settings page - select the currency and click Save.
+4. The main application section opens. In the left part, in the List of rigs, at the bottom, click the "Add Rig" button.
+5. You will be taken to the section of adding rigs. Here you need to go through three stages of configuration:
+- Choose the name of Rig (it will also be the name of the worker in Nicehash), enter your Bitcoin address, Autorun minig, preferred location and failover locations, enter the cost according to your electricity tariff in the currency selected in the Settings. Click Save.
+- Select the preferred method of access to the Excavator API (HTTP or TCP), the excavator host (127.0.0.1 if local or the IP address of the computer if remotely). When selecting HTTP, you can specify a secret Access token (the same as in the excavator's run file). Click Save.
+- If everything is specified correctly, a connection to the Excavator will occur and you will see a list of available GPUs for mining. Mark the GPUs you want to add to Rig. Add to the Rig can be exactly the same type of GPU, if there are several types of GPU on the farm, then you need to create a separate Rig for each type. Click Save and you will be taken to the Main application section.

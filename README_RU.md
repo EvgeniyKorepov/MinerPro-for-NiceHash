@@ -1,7 +1,7 @@
 # MinerPro for NiceHash
 NiceHash Miner Pro
 
-([English](https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/blob/master/README.md))
+([English version](https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/blob/master/README.md))
 
 - [Особенности](#features)
 - [Как подготовить Excavator?](#PrepareExcavator)

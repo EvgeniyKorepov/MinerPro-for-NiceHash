@@ -1,7 +1,7 @@
 # MinerPro for NiceHash
 NiceHash Miner Pro
 
-([Русская версия](https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/blob/master/README_RU.md))
+([Русская версия](README_RU.md))
 
 - [Features](#features)
 - [Near future](#Nearfuture)

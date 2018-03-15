@@ -1,7 +1,6 @@
 # MinerPro for NiceHash
-NiceHash Miner Pro
 
-([Русская версия](README_RU.md))
+([Перейти на русскую версию документации](README_RU.md))
 
 - [Features](#features)
 - [Near future](#Nearfuture)

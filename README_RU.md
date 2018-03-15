@@ -1,5 +1,4 @@
 # MinerPro for NiceHash
-NiceHash Miner Pro
 
 ([English version](README.md))
 

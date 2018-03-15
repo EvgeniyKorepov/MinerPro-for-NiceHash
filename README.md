@@ -39,23 +39,18 @@
 3. Create cmd file [#start.cmd](https://github.com/EvgeniyKorepov/MinerPro-for-NiceHash/blob/master/%23start.cmd) in Excavator folfer 
 ```
 @echo off
-:: CONFIG STARTS
 SET LOCALDIR=%~dp0
 SET CONSOLE_LOG_LEVEL=2
-SET FILE_LOG_LEVEL=0
+SET FILE_LOG_LEVEL=2
 SET WEB_PORT=38080
 SET WEB_HOST=0.0.0.0
-SET TOKEN=olaniel666
+SET TOKEN=MyCoolToken
 SET PORT=33333
 SET HOST=0.0.0.0
-SET RESTART_DELAY=0
-SET RESTART_DELAY_LONG=30
-:: CONFIG ENDS
+SET COMMAND_FILE=ExcavatorServer.json
 cd /d "%LOCALDIR%"
 :start
-SET COMMAND_FILE=ExcavatorServer.json
-excavator.exe -c %LOCALDIR%%COMMAND_FILE% -d %CONSOLE_LOG_LEVEL% -f %FILE_LOG_LEVEL% -wp %WEB_PORT% -wi %WEB_HOST% -wa %TOKEN% -p %PORT% -i %HOST%  
-goto start
+excavator.exe -c %COMMAND_FILE% -d %CONSOLE_LOG_LEVEL% -f %FILE_LOG_LEVEL% -wp %WEB_PORT% -wi %WEB_HOST% -wa %TOKEN% -p %PORT% -i %HOST%  goto start
 ```
 4. Run the file #start.cmd once, in the favorite way - auto-load, task scheduler, etc.
 

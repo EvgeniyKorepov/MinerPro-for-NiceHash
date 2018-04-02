@@ -47,10 +47,13 @@ SET WEB_HOST=0.0.0.0
 SET TOKEN=MyCoolToken
 SET PORT=33333
 SET HOST=0.0.0.0
-SET COMMAND_FILE=ExcavatorServer.json
+SET RESTART_DELAY=0
 cd /d "%LOCALDIR%"
 :start
-excavator.exe -c %COMMAND_FILE% -d %CONSOLE_LOG_LEVEL% -f %FILE_LOG_LEVEL% -wp %WEB_PORT% -wi %WEB_HOST% -wa %TOKEN% -p %PORT% -i %HOST%  goto start
+SET COMMAND_FILE=ExcavatorServer.json
+excavator.exe -c %LOCALDIR%%COMMAND_FILE% -d %CONSOLE_LOG_LEVEL% -f %FILE_LOG_LEVEL% -wp %WEB_PORT% -wi %WEB_HOST% -wa %TOKEN% -p %PORT% -i %HOST%  
+timeout /T %RESTART_DELAY%
+goto start
 ```
 4. Run the file #start.cmd once, in the favorite way - auto-load, task scheduler, etc.
 

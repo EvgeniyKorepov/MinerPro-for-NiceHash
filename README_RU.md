@@ -2,6 +2,8 @@
 
 ([English version](README.md))
 
+Внимание! Новсии Экскаватора 1.5.* пока не поддерживаются! Используйте версии 1.4.*.
+
 - [Особенности](#features)
 - [Как подготовить Excavator?](#PrepareExcavator)
 - [Как пользоваться MinerPro for NiceHash?](#HowtoUseMinerProforNiceHash)

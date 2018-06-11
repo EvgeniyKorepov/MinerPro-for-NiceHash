@@ -2,7 +2,7 @@
 
 ([English version](README.md))
 
-Внимание! Версии Экскаватора 1.5.* пока не поддерживаются! Используйте версии 1.4.*.
+Обсуждение приложения на русском языке https://forum.bits.media/index.php?/topic/71938-minerpro-for-nicehash/
 
 - [Особенности](#features)
 - [Как подготовить Excavator?](#PrepareExcavator)

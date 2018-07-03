@@ -2,8 +2,6 @@
 
 ([Перейти на русскую версию документации](README_RU.md))
 
-Attention! Excavator versions 1.5. * Are not yet supported! Use version 1.4. *.
-
 - [Features](#features)
 - [Near future](#Nearfuture)
 - [How to prepare an Excavator?](#PrepareExcavator)
